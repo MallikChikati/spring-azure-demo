@@ -15,7 +15,7 @@ public class SpringAzureDemoApplication {
 
 	@GetMapping("/message")
 	public String message() {
-		return "Application has been deployed to Azure successfully";
+		return "Second Application has been deployed to Azure successfully";
 	}
 
 }
